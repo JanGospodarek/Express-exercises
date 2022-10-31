@@ -1,0 +1,28 @@
+#formCont {
+    width: 100%;
+    height: 200px;
+    background-color: aliceblue;
+}
+
+#full {
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+#formAdd {
+    border: 1px solid grey;
+    background-color: greenyellow;
+    margin: 10px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+#formAdd>input,
+#formAdd>button {
+    width: 100px;
+}
